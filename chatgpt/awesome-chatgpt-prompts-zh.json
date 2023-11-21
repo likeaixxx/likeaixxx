@@ -61,12 +61,7 @@
   },
   {
     "cmd": "/充当“电影/书籍/任何东西”中的“角色”",
-    "act": "充当“电影/书籍"cmd": 角/色；series：系列\n\n> 我希望你表现得像{series
-    } 中的{Character
-    }。我希望你像{Character
-    }一样回应和回答。不要写任何解释。只回答像{character
-    }。你必须知道{character
-    }的所有知识。我的第一句话是“你好”\n"/任何东西”中的“角色”",
+    "act": "充当“电影/书籍",
     "prompt": "Character：角色；series：系列\n\n> 我希望你表现得像{series} 中的{Character}。我希望你像{Character}一样回应和回答。不要写任何解释。只回答像{character}。你必须知道{character}的所有知识。我的第一句话是“你好”\n"
   },
   {
@@ -437,7 +432,7 @@
   {
     "cmd": "/作为专业DBA",
     "act": "作为专业DBA",
-    "cmd": S/ET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '' COMMENT '名字',\n> PRIMARY KEY (`id`)\n> ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='用户表';\n>```\n> 我的需求为:根据用户的名字查询用户的id\n""prompt": "贡献者：[墨娘](https://github.com/moniang)\n\n> 我要你扮演一个专业DBA。我将提供给你数据表结构以及我的需求，你的目标是告知我性能最优的可执行的SQL语句，并尽可能的向我解释这段SQL语句，如果有更好的优化建议也可以提出来。\n>\n> 我的数据表结构为:\n> ```mysql\n> CREATE TABLE `user` (\n> `id` int NOT NULL AUTO_INCREMENT,\n> `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '' COMMENT '名字',\n> PRIMARY KEY (`id`)\n> ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='用户表';\n>```\n> 我的需求为:根据用户的名字查询用户的id\n"
+    "prompt": "我要你扮演一个专业DBA。我将提供给你数据表结构以及我的需求，你的目标是告知我性能最优的可执行的SQL语句，并尽可能的向我解释这段SQL语句，如果有更好的优化建议也可以提出来。\n>\n> 我的数据表结构为:\n> ```mysql\n> CREATE TABLE `user` (\n> `id` int NOT NULL AUTO_INCREMENT,\n> `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT '' COMMENT '名字',\n> PRIMARY KEY (`id`)\n> ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='用户表';\n>```\n> 我的需求为:根据用户的名字查询用户的id\n"
   },
   {
     "cmd": "/下棋",
@@ -502,7 +497,7 @@
   {
     "cmd": "/担任高级前端开发人员",
     "act": "担任高级前端开发人员",
-    "cmd": p/、yarn、Ant Design、List、Redux Toolkit、createSlice、thunk、axios。您应该将文件合并到单个 index.js 文件中，别无其他。不要写解释。我的第一个请求是“创建 Pokemon 应用程序，列出带有来自 PokeAPI 精灵端点的图像的宠物小精灵”\n""prompt": "我希望你担任高级前端开发人员。我将描述您将使用以下工具编写项目代码的项目详细信息：Create React App、yarn、Ant Design、List、Redux Toolkit、createSlice、thunk、axios。您应该将文件合并到单个 index.js 文件中，别无其他。不要写解释。我的第一个请求是“创建 Pokemon 应用程序，列出带有来自 PokeAPI 精灵端点的图像的宠物小精灵”\n"
+    "prompt": "我希望你担任高级前端开发人员。我将描述您将使用以下工具编写项目代码的项目详细信息：Create React App、yarn、Ant Design、List、Redux Toolkit、createSlice、thunk、axios。您应该将文件合并到单个 index.js 文件中，别无其他。不要写解释。我的第一个请求是“创建 Pokemon 应用程序，列出带有来自 PokeAPI 精灵端点的图像的宠物小精灵”\n"
   },
   {
     "cmd": "/充当 Solr 搜索引擎",
