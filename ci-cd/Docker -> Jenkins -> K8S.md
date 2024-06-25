@@ -204,7 +204,7 @@ kubeadm join kubernetes-master.likeai:6443 --token abcdef.0123456789abcdef --dis
 ```
 
 ### Jenkins -> K8S
-这个文档写的太详细了, 我就不重复了. [Jenkins如何链接云山K8S](https://github.com/sunweisheng/Jenkins/blob/master/Jenkins-Kubernetes.md)
+这个文档写的太详细了, 我就不重复了. [Jenkins如何链接云上K8S](https://github.com/sunweisheng/Jenkins/blob/master/Jenkins-Kubernetes.md)
 
 K8S链接镜像私服, 我用的阿里云个人版免费的如下:
 ```shell
