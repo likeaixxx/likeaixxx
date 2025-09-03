@@ -7,4 +7,4 @@
 hotoday=script-name=hotoday
 
 [Script]
-hotoday=type=generic,script-path=https://raw.githubusercontent.com/deezertidal/Surge_Module/master/files/hotoday.js,timeout=10,argument=icon={{{icon}}}&color={{{color}}}&platform={{{platform}}}&count={{{count}}}
+hotoday=type=generic,script-path=https://raw.githubusercontent.com/deezertidal/Surge_Module/master/files/hotoday.js,timeout=10,platform={{{platform}}}&count={{{count}}}
