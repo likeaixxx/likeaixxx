@@ -1,7 +1,7 @@
 #!name=今日平台热榜
 #!desc=平台热榜面板
 #!homepage=https://whatshub.top
-#!arguments=platform:选择平台@微博&知乎&微信&今日头条&澎湃&百度&36氪&少数派&财新&ZAKER&新京报&南方周末&科普中国&威锋网&起点小说&纵横小说&北美票房:今日头条,count:显示条数:6,icon:图标名称:text.badge.star,color:颜色代码:#FFD700
+#!arguments=platform:选择平台@微博&知乎&微信&今日头条&澎湃&百度&36氪&少数派&财新&ZAKER&新京报&南方周末&科普中国&威锋网&起点小说&纵横小说&北美票房:今日头条,count:显示条数:6
 
 [Panel]
 hotoday=script-name=hotoday
